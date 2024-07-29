@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parentdiv{
+    background-color: black;
+    width: 350px;
+    height: 540px;
+    box-shadow: 5px 5px 5px rgb(205, 205, 205);
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-top: 10px;
+}
+.heading p{
+    color: white;
+    font-size: 12px;
+    padding-left: 15px;
+}
+#mini{
+    margin-top: -16px;
+    padding-left: 120px;
+}
+.heading img{
+    height: 25px;
+    padding-left: 20px;
+}
+#maximize{
+    font-size: 15px;
+    padding-left: 20px;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.heading button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    margin-left: 20px;
+    width: 50px;
+    height: 30px;
+}
+#close{
+    font-size: 20px;
+}
+.heading button:hover{
+    background-color: red;
+}
+.second-header{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-top: 10px;
+}
+#menu{
+    padding-left: 20px;
+}
+.second-header p{
+    padding-left: 15px;
+}
+#history{
+    padding-left: 200px;
+    color: white;
+}
+#input1{
+    width: 350px;
+    color: rgb(205, 205, 205);
+    height: 30px;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    background-color: black;
+    text-align: right;
+    font-weight: light;
+    font-size: 15px;
+}
+/* .inputss{
+    width: 350px;
+    height: 90px;
+    background-color: black;
+    margin-top: 20px;
+} */
+#input2{
+    width: 350px;
+    color: white;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color: black;
+    text-align: right;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 10px;
+}
+/* input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+} */
+/* input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+} */
+.third-head{
+    width: 350px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.third-head p{
+    padding: 18px;
+}
+.calculate button{
+    width: 80px;
+    height: 50px;
+    color: white;
+    margin: 2px;
+    background-color: rgb(50, 50, 50);
+    border-radius: 5px;
+}
+.backspace{
+    position: absolute;
+    align-items: center;
+}
+#equals{
+    background-color: rgb(109, 169, 216);
+    border: none;
+}

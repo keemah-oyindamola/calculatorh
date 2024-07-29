@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div class="parentdiv">
+        <div class="heading">
+            <img src="WhatsApp_Image_2024-01-15_at_01.20.12_3524378e-removebg-preview.png" alt="">
+            <p>Calculator</p>
+            <span id="mini" class="material-symbols-outlined">minimize</span>
+            <span id="maximize" class="material-symbols-outlined">check_box_outline_blank</span>
+            <button><span id="close" class="material-symbols-outlined">close</span></button>
+        </div>
+        <div class="second-header">
+            <span id="menu" class="material-symbols-outlined">menu</span>
+            <p>Standard</p>
+            <span id="history" class="material-symbols-outlined">history</span>
+        </div>
+        <!-- <div class="inputss"> -->
+           <input type="text"  id="input1"> 
+            <input type="text"  id="input2">
+        <!-- </div> -->
+        <div class="third-head">
+            <p>MC</p>
+            <p>MR</p>
+            <p>M+</p>
+            <p>M-</p>
+            <p>MS</p>
+            <p>M^</p>
+        </div>
+        <div class="calculate">
+            <button onclick="percent('%')">%</button>
+            <button onclick="clear1()">CE</button>
+            <button onclick="clear2()">C</button>
+            <button class="backspace" onclick="clearonebyone()"><span class="material-symbols-outlined">backspace</span></button>
+            <button>1/x</button>
+            <button>x^2</button>
+            <button onclick="inverse()">1/x</button>
+            <button onclick="show(2)">2x</button>
+            <button onclick="view('/')">\\</button>
+            <button onclick="show(7)">7</button>
+            <button onclick="show(8)">8</button>
+            <button onclick="show(9)">9</button>
+            <button onclick="view('*')">x</button>
+            <button onclick="show(4)">4</button>
+            <button onclick="show(5)">5</button>
+            <button onclick="show(6)">6</button>
+            <button onclick="view('-')">&minus;</button>
+            <button onclick="show(1)">1</button>
+            <button onclick="show(2)">2</button>
+            <button onclick="show(3)">3</button>
+            <button onclick="view('+')">+</button>
+            <button onclick="view('+/-')">+/-</button>
+            <button onclick="show(0)">0</button>
+            <button onclick="show('.')">.</button>
+            <button id="equals" onclick="equals('=')">=</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
